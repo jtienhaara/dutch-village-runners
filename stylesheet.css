@@ -1,0 +1,217 @@
+.title {
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.subtitle {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+}
+
+body {
+    margin-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.photo_link {
+}
+
+.logo_small {
+    padding: 0px;
+    text-align: center;
+    vertical-align: top;
+    width: 8%;
+}
+
+.logo_big {
+    padding: 0px;
+    text-align: center;
+    width: 50%;
+}
+
+.photo_inline {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    width: 5%;
+}
+
+.photo {
+    padding: 0px;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.photo_caption {
+    font-size: 14pt;
+    margin-top: 1em;
+    text-align: left;
+    width: 100%;
+}
+
+.section_title {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: left;
+}
+
+.section_subtitle {
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+.section_credit {
+    font-size: 14pt;
+}
+
+.correction {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.footnote {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.biography {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.paragraph {
+    font-size: 14pt;
+}
+
+.no_paragraph {
+    font-size: 14pt;
+}
+
+.paragraph_quotation {
+    font-size: 14pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.continued {
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.list {
+    font-size: 14pt;
+}
+
+.list_item {
+    font-size: 14pt;
+}
+
+hr.page_divider {
+    border: 1px solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 80%;
+}
+
+hr.section_divider {
+    border: 1px dotted;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 80%;
+}
+
+.dialogue {
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0.5em;
+}
+
+.dialogue_character {
+    font-family: fixed;
+    font-weight: bold;
+}
+
+.poem {
+    font-family: monospace;
+    font-size: 16;
+    white-space: pre;
+}
+
+.quotation {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.5em;
+}
+
+.large {
+    font-size: 18pt;
+}
+
+.small {
+    font-size: 12pt;
+}
+
+.black_background {
+    background-color: black;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+.bold_italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.reference {
+    font-style: italic;
+}
+
+.math {
+    font-family: fixed;
+    font-style: italic;
+}
+
+.emphasis {
+    font-style: italic;
+}
