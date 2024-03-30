@@ -215,6 +215,15 @@ hr.section_divider {
     margin-left: 5%;
 }
 
+.huge {
+    font-size: 32pt;
+}
+
+.huge_indented {
+    font-size: 32pt;
+    margin-left: 5%;
+}
+
 .small {
     font-size: 12pt;
 }
