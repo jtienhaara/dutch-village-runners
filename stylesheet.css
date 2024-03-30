@@ -50,18 +50,18 @@ title {
 .logo_small {
     padding: 0px;
     vertical-align: top;
-    width: 8%;
+    width: 2em;
 }
 
 .logo_medium {
     padding: 0px;
     vertical-align: top;
-    width: 15%;
+    width: 12em;
 }
 
 .logo_big {
     padding: 0px;
-    width: 50%;
+    width: 25em;
 }
 
 .photo_link {
@@ -73,13 +73,13 @@ title {
     border-width: 1px;
     display: inline;
     float: left;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: 0em;
     text-align: left;
     vertical-align: top;
-    width: 5%;
+    width: 4em;
 }
 
 .photo {
