@@ -21,7 +21,12 @@
 }
 
 body {
+    margin-left: 5%;
     margin-right: 5%;
+}
+
+title {
+    text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -38,20 +43,28 @@ body {
     }
 }
 
-.photo_link {
+.centred {
+    text-align: center;
 }
 
 .logo_small {
     padding: 0px;
-    text-align: center;
     vertical-align: top;
     width: 8%;
 }
 
+.logo_medium {
+    padding: 0px;
+    vertical-align: top;
+    width: 15%;
+}
+
 .logo_big {
     padding: 0px;
-    text-align: center;
     width: 50%;
+}
+
+.photo_link {
 }
 
 .photo_inline {
@@ -60,6 +73,10 @@ body {
     border-width: 1px;
     display: inline;
     float: left;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
     text-align: left;
     vertical-align: top;
     width: 5%;
@@ -113,6 +130,13 @@ body {
     font-style: italic;
 }
 
+.box {
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
 .paragraph {
     font-size: 14pt;
 }
@@ -145,7 +169,7 @@ hr.page_divider {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
 hr.section_divider {
@@ -153,7 +177,7 @@ hr.section_divider {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
 .dialogue {
@@ -186,8 +210,18 @@ hr.section_divider {
     font-size: 18pt;
 }
 
+.large_indented {
+    font-size: 18pt;
+    margin-left: 5%;
+}
+
 .small {
     font-size: 12pt;
+}
+
+.small_indented {
+    font-size: 12pt;
+    margin-left: 5%;
 }
 
 .black_background {
