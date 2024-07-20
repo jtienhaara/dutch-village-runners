@@ -115,9 +115,9 @@ do
     # Replace the ${VARIABLE}s in TEMPLATE_photo.html with the appropriate
     # dates etc calculated above.
     #
-    HTML_TEMPLATE=`envsubst < $RUN_DIR/TEMPLATE_photo.html`
+    PHOTO_HTML=`envsubst < $RUN_DIR/TEMPLATE_photo.html`
     if test $? -ne 0 \
-            -o -z "$HTML_TEMPLATE"
+            -o -z "$PHOTO_HTML"
     then
         NEW_ERRORS=`echo "$ERRORS" \
                         | awk \
@@ -135,8 +135,9 @@ do
     #
     # Create the (photo).html file:
     #
-    echo "$HTML_TEMPLATE" \
-        | "$PHOTO_HTML_FILE"
+    PHOTO_HTML_FILE="$PHOTOS_DIR/$PHOTO.html"
+    echo "$PHOTO_HTML" \
+        > "$PHOTO_HTML_FILE"
     if test $? -ne 0
     then
         NEW_ERRORS=`echo "$ERRORS" \
