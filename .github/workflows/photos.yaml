@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create photo pages
-        run: ls -1 photos/*.jpg | grep -v '_' | xargs ./scripts/photo.sh
+        run: ls -1 photos/*.jpg | grep -v '_.*_' | xargs ./scripts/photo.sh
 
       - name: Re-Index photos
         run: ./scripts/index_photos.sh
