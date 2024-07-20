@@ -24,6 +24,9 @@ jobs:
       - name: Re-Index photos
         run: ./scripts/index_photos.sh
 
+      - name: Git status
+        run: git status
+
       #
       # Copy-pasta from:
       #
