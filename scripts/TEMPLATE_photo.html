@@ -1,24 +1,28 @@
 <html>
 
   <head>
-    <title> ${TITLE} </title>
+    <title> DVR ${ISO_DATE} </title>
     <link rel="stylesheet" href="../stylesheet.css">
 
     <meta charset="UTF-8">
     <meta name="description" content="Dutch Village Runners running group (Halifax, Nova Scotia)">
-    <meta name="keywords" content="Dutch Village, Fairview, Fairmount, Clayton Park, West End, Halifax, running group, photos">
+    <meta name="keywords" content="Dutch Village, Fairview, Fairmount, Clayton Park, West End, Halifax, running group, photos, ${YEAR}, ${MONTH_NAME_LOWER}">
     <meta name="author" content="Johann Tienhaara">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
 
+    <div class="title">
+      <img src="../images/dvr.png" class="logo_small"/> Dutch Village Runners ${DATE_TEXT}
+    </div>
+
     <p>
-      <img src="${PHOTO}"/>
+      <img src="${PHOTO}.jpg" width="100%"/>
     </p>
 
     <p>
-      <a href="index.html"> Back to photos </a>
+      <a href="index.html"> Back to Photos </a>
     </p>
 
     <p class="small">
