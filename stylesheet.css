@@ -256,6 +256,20 @@ hr.section_divider {
     margin-top: 0.5em;
 }
 
+
+.extra_extra_large {
+    font-size: 48pt;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.extra_extra_large_indented {
+    font-size: 48pt;
+    margin-left: 5%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
 .huge {
     font-size: 64pt;
     margin-bottom: 0.5em;
