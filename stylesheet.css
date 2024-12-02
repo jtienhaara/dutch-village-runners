@@ -52,6 +52,12 @@ table {
     text-align: center;
 }
 
+.logo_tiny {
+    padding: 0px;
+    vertical-align: top;
+    width: 1em;
+}
+
 .logo_small {
     padding: 0px;
     vertical-align: top;
